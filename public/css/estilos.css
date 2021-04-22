@@ -1,0 +1,35 @@
+
+/*row que contiene la imagen del banner superior */
+/*rimo*/
+.rowbannersuperior{
+	height: 400px;
+}
+.rowbannerinferior{
+  object-fit: contain;
+}
+
+
+/*le da el ancho y el alto al banner superior */
+/*rimo*/
+.bannersuperior{
+	width:100%;
+	height: 60%;
+	align-content: center;
+}
+
+.bannerinferior{
+	width:100%;
+	height: 540px;
+	align-content: center;
+}
+/*rimo*/
+/* fondo que  contiene el menú, el color de fondo es amarillo
+ que se incorpora por medio de un rgba*/
+.fondoamarillo{
+	background-color:rgba(249,255,1);
+
+}
+/*cambia el color al pasar mouse a las etiquetas font*/
+font:hover{
+	color:black;
+}
